@@ -1,0 +1,25 @@
+.estiloS-boton{
+    font-size: 15px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    width: 75px;
+    align-items: flex-start;
+    color: aquamarine;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.estiloS-boton:hover {
+    background-color: green;
+}
+
+.estilo-boton-principal {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+}

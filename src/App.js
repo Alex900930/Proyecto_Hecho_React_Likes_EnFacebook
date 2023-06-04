@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Boton from './components/Boton';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="Header">
+        <img alt="Logo Facebook"
+              src={require('./imagenes/Nuevo-logo-Facebook-577855668.jpg')} 
+              className='estilos-logo'/>
+        <h1>"LIKES EN FACEBOOK"</h1>      
+      </div>
+      <div className="main">
+        <img className='estilos-imagen'
+        src={require('./imagenes/imagen-famili3.jpg')} 
+        alt='Foto Bebes'/>
+        <Boton />
+      </div>
     </div>
   );
 }
